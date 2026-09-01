@@ -1,6 +1,6 @@
 # summerwang.dev
 
-A responsive static portfolio and resume site for Summer Wang.
+A responsive static portfolio site for Summer Wang.
 
 ## Local preview
 
@@ -16,7 +16,7 @@ Then open `http://localhost:8000`.
 
 - `index.html`: site structure and content
 - `styles.css`: visual design, responsive layout, and print styling
-- `script.js`: small interactions like reveal-on-scroll and print-to-PDF
+- `script.js`: small interactions like reveal-on-scroll and the dynamic copyright year
 - `favicon.svg`: site icon
 
 ## Deployment

@@ -3,13 +3,6 @@ if (yearTarget) {
   yearTarget.textContent = String(new Date().getFullYear());
 }
 
-const printButton = document.querySelector("[data-print-resume]");
-if (printButton) {
-  printButton.addEventListener("click", () => {
-    window.print();
-  });
-}
-
 const revealElements = document.querySelectorAll("[data-reveal]");
 
 if ("IntersectionObserver" in window && revealElements.length > 0) {
